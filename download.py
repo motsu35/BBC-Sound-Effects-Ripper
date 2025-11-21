@@ -30,8 +30,8 @@ from mutagen.id3 import COMM
 FLAC_COMPRESSION_LEVEL = 5
 
 # use this if debugging to avoid hammering the search API
-USE_PICKEL_SEARCH_DB = True
-REBUILD_RESOLVE_DB_ONLY = True  # ideally you already have a pickel file of the search scraping, otherwise it will have to re-scrape (but not redownload). Deltas or errors might occur if new sounds have been uploaded!
+USE_PICKEL_SEARCH_DB = False
+REBUILD_RESOLVE_DB_ONLY = False  # ideally you already have a pickel file of the search scraping, otherwise it will have to re-scrape (but not redownload). Deltas or errors might occur if new sounds have been uploaded!
 
 SEARCH_URL = "https://sound-effects-api.bbcrewind.co.uk/api/sfx/search"
 
