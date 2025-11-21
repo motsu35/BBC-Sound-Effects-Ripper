@@ -1,0 +1,7 @@
+requests==2.32.5
+tqdm==4.67.1
+frozendict==2.4.7
+humanize==4.14.0
+urllib3==2.5.0
+pydub==0.25.1
+mutagen==1.47.0
